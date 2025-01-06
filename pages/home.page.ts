@@ -61,20 +61,3 @@ class HomePageAssertions extends BasePageAssertions {
 		await expect(this.homePage._loginButton, "Verifying log in button is displayed").toBeVisible();
 	}
 }
-
-/*
-	await page.goto("https://parabank.parasoft.com/parabank/index.htm");
-
-	await page.getByText("Solutions").click();
-	await page.locator("#headerPanel").getByRole("link", { name: "About Us" }).click();
-	await expect(page.getByRole("heading", { name: "ParaSoft Demo Website" })).toBeVisible();
-
-	await page.locator("#headerPanel").getByRole("link", { name: "Services" }).click();
-	await expect(page.getByText("Available Bookstore SOAP")).toBeVisible();
-
-	await page.locator("#headerPanel").getByRole("link", { name: "Locations" }).click();
-	await expect(page.getByRole("banner").getByRole("link", { name: "Parasoft logo" })).toBeVisible();
-
-	await page.getByRole("link", { name: "Admin Page" }).click();
-	await expect(page.getByRole("heading", { name: "Administration" })).toBeVisible();
-*/
