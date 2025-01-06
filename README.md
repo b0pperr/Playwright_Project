@@ -1,4 +1,4 @@
-# Premier Automation
+# Playwright Automation
 
 Welcome to the Para Bank Test Automation Repository! This repository contains all the necessary tools and scripts to automate the testing of the Para Bank web application. Our goal is to ensure the highest quality and reliability of the Para Bank application through comprehensive and efficient automated testing.
 
